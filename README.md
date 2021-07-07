@@ -12,7 +12,7 @@ Inside a message-container class have the input first then the message class. In
 
 You can use other classes as modifiers. This should be used along side message class.
 
-List of classes:
+List of modifier classes:
 1. small
 2. medium
 3. large
@@ -39,4 +39,23 @@ Example code:
       Message goes here.
     </div>
   </div>
+```
+### Tooltip.
+Just add the class to add a tooltip to any element with closing tag. Use tooltip-text attribute to pass the text of the tooltip.
+
+You can use other classes as modifiers. This should be used along side tooltip class.
+
+1. black
+2. text-small
+3. text-extra-small
+4. text-tiny
+5. text-large
+6. text-extra-large
+7. text-extra-extra-large
+8. text-huge
+9. clickable
+
+Example code:
+```html
+  <p class="tooltip black text-small" tooltip-text="THIS IS FINE!">This is a paragraph.</p>
 ```

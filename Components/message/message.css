@@ -1,6 +1,5 @@
 /* Actual styling for the whole content. */
 .message-container {
-  /* Set the size of the whole thing here. */
   position: relative;
   --message-clr: rgb(102, 230, 102);
 }
