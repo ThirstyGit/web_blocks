@@ -32,70 +32,70 @@
 
 /* Modifier for the whole container. */
 
-.small {
+.message.small {
   font-size: 0.5rem;
 }
 
-.medium {
+.message.medium {
   font-size: 1.25rem;
 }
 
-.large {
+.message.large {
   font-size: 1.5rem;
 }
 
-.extra-large {
+.message.extra-large {
   font-size: 1.75rem;
 }
 
-.extra-extra-large {
+.message.extra-extra-large {
   font-size: 2rem;
 }
 
-.huge {
+.message.huge {
   font-size: 2.5rem;
 }
 
-.enabled {
+.message.enabled {
   opacity: 0.8;
 }
 
-.clickable {
+.message.clickable {
   pointer-events: all;
 }
 
-.error {
+.message.error {
   --message-clr: hsl(0, 100%, 71%);
 }
 
-.warning {
+.message.warning {
   --message-clr: hsl(56.2, 100%, 50%)
 }
 
-.text-white {
+.message.text-white {
   color: white;
 }
 
-.text-black {
+.message.text-black {
   color: black;
 }
 
-.text-red {
+.message.text-red {
   color: red;
 }
 
-.text-padding {
+.message.text-padding {
   padding: 0.5em 1em;
 }
 
-.text-padding-low {
+.message.text-padding-low {
   padding: 0.5em 1em;
 }
 
-.text-padding-medium {
+.message.text-padding-medium {
   padding: 1em 2em;
 }
 
-.text-padding-high {
+.message.text-padding-high {
   padding: 1.5em 3em;
 }

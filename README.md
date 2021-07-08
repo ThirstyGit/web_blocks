@@ -8,7 +8,7 @@ This is the start of a repository which will contain all the building blocks I m
 ### Message.
 This can be used with inputs. (Need to try others.)
 
-Inside a message-container class have the input first then the message class. Inside the message class, write whatever you want to be shown as a message.
+Inside a message-container class have the input first then the message class. Inside the message class, write whatever you want to be shown as a message. The message is initially invisible. Use the enabled class to show the message.
 
 You can use other classes as modifiers. This should be used along side message class.
 
