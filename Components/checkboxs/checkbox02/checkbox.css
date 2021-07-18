@@ -1,0 +1,41 @@
+/* Basic Styling for whole page. */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(0, 0%, 21%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Code fot checkbox */
+.checkbox {
+  display: none;
+}
+.checkbox + label {
+  font-size: 3em;
+  position: relative;
+  cursor: pointer;
+}
+.checkbox + label::before {
+  box-sizing: border-box;
+  content: '';
+  display: block;
+  width: 1em;
+  height: 1em;
+  border: 2px solid hsl(120, 76%, 64%);
+  position: absolute;
+  left: -1.5em;
+}
+.checkbox:checked + label::after {
+  box-sizing: border-box;
+  content: '✔';
+  color: hsl(157, 68%, 50%);
+  position: absolute;
+  font-size: 1em;
+  left: -1.4em;
+  top: -0.2em;
+}
