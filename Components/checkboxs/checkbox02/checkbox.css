@@ -30,7 +30,7 @@ body {
   position: absolute;
   left: -1.5em;
 }
-.checkbox:checked + label::after {
+.checkbox + label::after {
   box-sizing: border-box;
   content: '✔';
   color: hsl(157, 68%, 50%);
@@ -38,4 +38,9 @@ body {
   font-size: 1em;
   left: -1.4em;
   top: -0.2em;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+.checkbox:checked + label::after {
+  opacity: 1;
 }
