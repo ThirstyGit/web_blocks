@@ -5,11 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./tooltip.css">
+  <style>
+    .example-center {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
   <title>Document</title>
 </head>
 <body>
-  <span class="tooltip" tooltip-text="Must be a valid email address.">
-    <input type="email">
-  </span>
+  <div class="example-center">
+    <span class="tooltip" tooltip-text="Must be a valid email address.">
+      <input type="email">
+    </span>
+  </div>
 </body>
 </html>
