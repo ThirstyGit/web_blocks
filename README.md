@@ -72,3 +72,9 @@ Example code:
   <input type="checkbox" class="checkbox" id="checkbox">
   <label for="checkbox">Checkbox</label>
 ```
+
+### Buttons
+
+Add any of the class to a button for styling.
+
+Examples of all the buttons can be seen [here](https://codepen.io/CodepenSuck/pen/yLbwVrG).
