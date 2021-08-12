@@ -1,4 +1,4 @@
-/* Actual styling for the whole content. */
+/* Actual styling message. */
 .message-container {
   position: relative;
   --message-clr: rgb(102, 230, 102);
@@ -31,7 +31,7 @@
   border-right: 1em solid transparent;
 }
 
-/* Modifier for the whole container. */
+/* Modifier for message. */
 
 .message.small {
   font-size: 0.5rem;
