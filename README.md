@@ -59,3 +59,16 @@ Example code:
 ```html
   <p class="tooltip black text-small" tooltip-text="THIS IS FINE!">This is a paragraph.</p>
 ```
+
+### Checkboxes.
+First have the input and than the label right after it.
+Make sure the type is checkbox with class of checkbox.
+Also make sure that the id of input and the for of label are exactly the same.
+
+`Change the size of label to change the size of the whole thing.`
+
+Example code:
+```html
+  <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox">Checkbox</label>
+```

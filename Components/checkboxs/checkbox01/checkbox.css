@@ -16,7 +16,6 @@ body {
   display: none;
 }
 .checkbox + label {
-  font-size: 3em;
   position: relative;
   cursor: pointer;
   margin-left: 2em;
