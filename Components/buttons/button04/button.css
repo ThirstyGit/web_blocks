@@ -41,7 +41,7 @@
 
 @keyframes btn_anime_james_top {
   /* Needs to travel 130% total distance in 100% time. */
-  /* Calculated based on that. */
+  /* Calculated based on that. travel = 100% + size of line*/
   0% {
     width: 0%;
     left: 0%;
@@ -82,7 +82,7 @@
 
 @keyframes btn_anime_james_right {
   /* Needs to travel 130% total distance in 100% time. */
-  /* Calculated based on that. */
+  /* Calculated based on that. travel = 100% + size of line*/
   0% {
     height: 0%;
     top: 0%;
@@ -116,14 +116,14 @@
 }
 .btn:hover:after {
   animation: btn_anime_james_bottom;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
 @keyframes btn_anime_james_bottom {
   /* Needs to travel 130% total distance in 100% time. */
-  /* Calculated based on that. */
+  /* Calculated based on that. travel = 100% + size of line*/
     0% {
     width: 0%;
     right: 0%;
@@ -157,14 +157,14 @@
 }
 .btn > span:hover:after {
   animation: btn_anime_james_left;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
 @keyframes btn_anime_james_left {
   /* Needs to travel 130% total distance in 100% time. */
-  /* Calculated based on that. */
+  /* Calculated based on that. travel = 100% + size of line*/
   0% {
     height: 0%;
     bottom: 0%;
