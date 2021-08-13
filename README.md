@@ -75,6 +75,12 @@ Example code:
 
 ### Buttons
 
-Add any of the class to a button for styling.
+Add any of the class to a button for styling. Some buttons require the text to be inside a span to work. For safety, you can put all the buttons text inside a span or check the example code for each style.
+
+Example Code:
+
+```html
+  <button class="btn"><span>A Button</span></button>
+```
 
 Examples of all the buttons can be seen [here](https://codepen.io/CodepenSuck/pen/yLbwVrG).
