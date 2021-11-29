@@ -86,3 +86,6 @@
   font-size: 30px;
   color: var(--dark-primary);
 }
+.hidden {
+  display: none;
+}
