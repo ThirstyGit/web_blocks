@@ -1,0 +1,12 @@
+/* Contains a collection of colors that I like. */
+/* This is an ever updating and ever changing place. */
+
+:root {
+  --green-prm: hsl(135, 100%, 75%);
+  --green-sec: hsl(135, 100%, 55%);
+  --purple-prm: hsl(236, 75%, 65%);
+  --purple-sec: hsl(236, 75%,72%);
+  --red-prm: hsl(4, 90%, 58%);
+  --orange-prm: hsl(0, 100%, 63%);
+  --orange-sec: hsl(0, 100%, 67%);
+}
