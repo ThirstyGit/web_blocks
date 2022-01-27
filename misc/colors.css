@@ -2,6 +2,8 @@
 /* This is an ever updating and ever changing place. */
 
 :root {
+  --black-prm: hsl(225, 6%, 13%);
+  --black-sec: hsl(225, 4%, 20%);
   --green-prm: hsl(135, 100%, 75%);
   --green-sec: hsl(135, 100%, 55%);
   --purple-prm: hsl(236, 75%, 65%);
