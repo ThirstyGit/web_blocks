@@ -1,0 +1,31 @@
+.folder {
+    --bg-clr: tomato;
+    --top-height: 20px;
+    --top-width: 50px;
+    width: 150px;
+    height: 100px;
+    background-color: var(--bg-clr);
+    position: relative;
+    border-radius: 0px 5px 5px 5px;
+}
+
+.folder::before {
+    content: '';
+    width: 30px;
+    height: var(--top-height);
+    background-color: var(--bg-clr);
+    position: absolute;
+    top: calc(-1 * var(--top-height));
+    left: calc(var(--top-width) - 15px);
+    transform: skew(45deg)
+}
+
+.folder::after {
+    content: '';
+    width: var(--top-width);
+    height: var(--top-height);
+    background-color: var(--bg-clr);
+    position: absolute;
+    top: calc(-1 * var(--top-height));
+    border-radius: 5px 0px 0px 0px;
+}
